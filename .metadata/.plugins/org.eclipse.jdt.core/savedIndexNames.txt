@@ -12,7 +12,6 @@ INDEX VERSION 1.131+G:\Alura - Spring\.metadata\.plugins\org.eclipse.jdt.core
 924142654.index
 3361980512.index
 518396626.index
-4156331863.index
 1292232913.index
 3155144100.index
 1711067422.index
