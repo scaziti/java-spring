@@ -231,3 +231,8 @@
 0:0:0:0:0:0:0:1 - - [02/Jun/2021:15:32:36 -0300] "GET /gerenciador/mostraEmpresa?id=1 HTTP/1.1" 200 417
 0:0:0:0:0:0:0:1 - - [02/Jun/2021:15:32:48 -0300] "POST /gerenciador/alteraEmpresa HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [02/Jun/2021:15:32:48 -0300] "GET /gerenciador/listaEmpresas HTTP/1.1" 200 558
+127.0.0.1 - - [02/Jun/2021:15:39:44 -0300] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [02/Jun/2021:15:40:00 -0300] "GET /gerenciador HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/Jun/2021:15:40:00 -0300] "GET /gerenciador/ HTTP/1.1" 404 767
+0:0:0:0:0:0:0:1 - - [02/Jun/2021:15:44:11 -0300] "GET /gerenciador/ HTTP/1.1" 200 134
+0:0:0:0:0:0:0:1 - - [02/Jun/2021:15:44:37 -0300] "GET /gerenciador/ HTTP/1.1" 200 156
