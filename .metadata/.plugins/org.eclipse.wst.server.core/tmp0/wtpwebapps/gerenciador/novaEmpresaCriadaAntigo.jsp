@@ -1,0 +1,19 @@
+
+<%
+// scriptlet
+String nomeEmpresa = (String) request.getAttribute("empresa");
+System.out.println(nomeEmpresa);
+
+%>
+
+<!DOCTYPE html>
+<html>
+	<body>
+		Empresa
+		<%= nomeEmpresa%>
+		cadastrada com sucesso!
+	
+		<%--Posso utilizar como está abaixo, mas também de forma simplificada feita acima--%>
+		<%--!Empresa <% out.println(nomeEmpresa); %> cadastrada com sucesso!--%>
+	</body>
+</hmtl>

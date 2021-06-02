@@ -1,0 +1,19 @@
+<% 
+
+
+%>>
+
+<html>
+<body>
+	<ul>
+		<%
+		for(Empresa empresa : lista) {
+			
+		%>	
+			<li><%= empresa.getNome() %></li>
+		<%
+		%>
+		
+	</ul>
+</html>
+</body>

@@ -1,0 +1,14 @@
+
+<%
+// scriptlet
+String nomeEmpresa = (String) request.getAttribute("empresa");
+System.out.println(nomeEmpresa);
+
+%>
+
+<!DOCTYPE html>
+<html>
+	<body>
+		Empresa ${ novaEmpresa } cadastrada com sucesso!
+	</body>
+</html>

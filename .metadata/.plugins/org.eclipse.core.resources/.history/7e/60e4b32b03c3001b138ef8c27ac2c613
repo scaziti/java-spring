@@ -1,0 +1,13 @@
+<%
+String nomeEmpresa = "Alura";
+System.out.println(nomeEmpresa);
+
+%>
+
+<!DOCTYPE html>
+<html>
+<body>
+	Empresa <% out.println(nomeEmpresa) %> cadastrada com sucesso!
+</body>
+</hmtl>
+
